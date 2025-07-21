@@ -1,5 +1,7 @@
 import "./App.css";
 import Country from "./country";
+import Reduce from "./Reduce";
+import Team from "./Team";
 
 function App() {
   //Hard coded Js
@@ -18,8 +20,13 @@ function App() {
   return (
     <>
       <h1>Core Concept </h1>
+      <Team />
       {/* /counter */}
       <Country />
+      <Reduce />
+      {/* /counter */}
+
+      {/* /use this many times */}
 
       <button onClick={handleClick}>Use Me baby</button>
       <button onClick={handleClick2}>touch me</button>
