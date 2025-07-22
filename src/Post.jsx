@@ -1,19 +1,14 @@
-import { useEffect, useState } from "react";
+import Posts from "./Posts";
 
-export default function Post() {
-  // Using Set State
-  const [post, setPost] = useState([]);
-  // Using Set Effect
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts")
-      .then((res) => res.json())
-      .then((data) => setPost(data));
-  }, []);
-
+export default function Post({ post }) {
+    console.log(post);
   return (
+
     <>
-      <h1>Post Section</h1>
-      <p>Post are total: {post.length}</p>
+      <h1>Single post Bebo!</h1>
+      <h3>Tittle: {post.title}</h3>
+      <p>Description: {post.body}</p>
     </>
   );
 }
+ 

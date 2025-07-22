@@ -1,6 +1,7 @@
 import "./App.css";
 import Country from "./country";
 import Post from "./Post";
+import Posts from "./Posts";
 import Reduce from "./Reduce";
 import Team from "./Team";
 import Users from "./Users";
@@ -22,7 +23,10 @@ function App() {
   return (
     <>
       <h1>Core Concept </h1>
+      <Posts />
+      {/* post  */}
       <Post />
+      {/* post  */}
       {/* /Users */}
       <Users />
       {/* /Users */}
