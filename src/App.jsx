@@ -2,6 +2,7 @@ import "./App.css";
 import Country from "./country";
 import Reduce from "./Reduce";
 import Team from "./Team";
+import Users from "./Users";
 
 function App() {
   //Hard coded Js
@@ -20,6 +21,9 @@ function App() {
   return (
     <>
       <h1>Core Concept </h1>
+      {/* /Users */}
+      <Users />
+      {/* /Users */}
       <Team />
       {/* /counter */}
       <Country />
