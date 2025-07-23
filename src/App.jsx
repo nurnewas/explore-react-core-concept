@@ -23,7 +23,10 @@ function App() {
   return (
     <>
       <h1>Core Concept </h1>
+      {/* Posts  */}
       <Posts />
+      {/* Posts  */}
+
       {/* post  */}
       <Post />
       {/* post  */}
